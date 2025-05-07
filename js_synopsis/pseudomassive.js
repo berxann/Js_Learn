@@ -1,13 +1,13 @@
-// const arr = [1, 2, 3, 6, 8]
+const arr = [1, 2, 3, 6, 8]
 // arr.pop();
 // arr.push(8);
 //
 // // arr[99] = 99
 // console.log(arr.length)
 //
-// arr.forEach(function(item, i, arr) {
-//     console.log(`${item} в значении ${i} в массиве ${arr}`)
-// })
+arr.forEach(function(item, i, arr) {
+    console.log(`${item} в значении ${i} в массиве ${arr}`)
+})
 
 // for(let i = 0; i < arr.length; i++){
 //     console.log(arr[i])
